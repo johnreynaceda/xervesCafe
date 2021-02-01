@@ -97,13 +97,13 @@
                     <div x-data="{ show: @entangle('product_modal') }"  class="flex">
                         <div wire:click="product" class=" bg-side flex cursor-pointer px-2 py-2 hover:bg-yellow-500 hover:text-gray-900 rounded-sm shadow-md text-white space-x-1 ">
                             <i class="material-icons">add_box</i>
-                            <h1>Manage {{ $manage->category }}</h1>
+                            <h1>Manage </h1>
                         </div>
                         <div tabindex="0" class="z-40 overflow-auto left-0 top-0 bottom-0 right-0 w-full h-full fixed" style="background-color: rgba(0,0,0,.5);" x-show="show">
                             <div class="text-left bg-white h-auto mx-96  mt-6" @click.away="show = true">
                                 <div class="flex bg-nav text-gray-600">
                                     <div class=" px-3 py-2 font-medium text-lg w-11/12">
-                                     <h1>Manage {{ $manage->category }}</h1>
+                                     <h1>Manage </h1>
                                  </div>
                                     <div class=" flex justify-center items-center w-1/12">
                                      <div @click="show = false" class=" hover:text-red-600 p-1 cursor-pointer  flex justify-center items-center"><i class="material-icons">close</i></div>
