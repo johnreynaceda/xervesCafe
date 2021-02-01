@@ -1,10 +1,10 @@
 <div>
-    <h1 class="font-medium underline text-xl">Update </h1>
+    <h1 class="font-medium underline text-xl">Update {{ $manage->category }} </h1>
     <form action="">
        <div class="flex">
            <div class=" w-6/12">
            <div class="mb-2">
-            <label for=""> name:</label>
+            <label for="">{{ $manage->category }} name:</label>
             <input wire:model="product_name" type="text" class="h-10 border border-gray-500 focus:outline-none rounded-md px-2 focus:border-side" placeholder="Enter a name">
            </div>
            <div class="mb-2">
