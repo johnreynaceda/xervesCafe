@@ -4,7 +4,7 @@
        <div class="flex">
            <div class=" w-6/12">
            <div class="mb-2">
-            <label for="">{{ $manage->category }} name:</label>
+            <label for=""> name:</label>
             <input wire:model="product_name" type="text" class="h-10 border border-gray-500 focus:outline-none rounded-md px-2 focus:border-side" placeholder="Enter a name">
            </div>
            <div class="mb-2">
