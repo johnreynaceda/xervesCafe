@@ -1,5 +1,5 @@
 <div>
-    <h1 class="font-medium underline text-xl">Update {{ $manage->category }}</h1>
+    <h1 class="font-medium underline text-xl">Update </h1>
     <form action="">
        <div class="flex">
            <div class=" w-6/12">
