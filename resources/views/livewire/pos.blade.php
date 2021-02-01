@@ -128,7 +128,7 @@
                                             <thead class="bg-gray-600 text-white ">
                                                 <tr class="">
                                                     <th width="10" class="py-2 px-2 b font-bold uppercase text-xs border-b">#</th>
-                                                    <th width="250" class="py-2 px-2 b font-bold uppercase text-xs border-b">{{ $manage->category }}</th>
+                                                    <th width="250" class="py-2 px-2 b font-bold uppercase text-xs border-b"></th>
                                                     <th width="250" class="py-2 px-2 b font-bold uppercase text-xs border-b">AMOUNT</th>
                                                     <th width="100" class="py-2 px-2 b font-bold uppercase text-xs border-b">ACTION</th>
                             
@@ -154,7 +154,7 @@
                                                     </td>
                                                 </tr> 
                                                 @empty
-                                                    <td class="py-2 px-2 border-b border-gray-600" colspan="4">No {{ $manage->category }} Data!</td>
+                                                    <td class="py-2 px-2 border-b border-gray-600" colspan="4">No  Data!</td>
                                                 @endforelse
                                             </tbody>
                                         </table>
