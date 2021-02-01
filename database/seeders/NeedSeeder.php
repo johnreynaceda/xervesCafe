@@ -14,7 +14,7 @@ class NeedSeeder extends Seeder
      */
     public function run()
     {
-         Catgory::create([
+         Category::create([
             'category' => 'Coffee',
         ]);
        
